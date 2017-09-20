@@ -5,6 +5,7 @@ write-host "This script was loaded from Github and run on your local machine." -
 
 $psversiontable 
 
+write-host "Getting the current execution policy:" -foregoundcolor green
 get-executionpolicy
 
-get-psdrive
+
